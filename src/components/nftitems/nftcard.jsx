@@ -30,7 +30,7 @@ export default function NftCard({ item }) {
                     <Flex align='center' justify='center' w='full' height='100vh' backdropFilter='blur(5px)' bg='blackAlpha.100' position='fixed' top='0' left='0' p={5} >
                         <Flex w='full' h='full' onClick={() => { setOpenModal(false) }} />
                         <Stack direction={['column', 'column', 'row']} bg='white' p='20px' rounded='20px' gap='20px' position='absolute'>
-                            <Box maxW={400} minW={200} overflow='hidden' rounded={10}>
+                            <Box maxW={400} overflow='hidden' rounded={10}>
                                 <img src={item.nft_image} alt="" />
                             </Box>
                             <VStack gap='10px' align='left' justify='flex-start'>
@@ -45,7 +45,7 @@ export default function NftCard({ item }) {
                                 {/* Accordion */}
 
                                 <VStack align='left' justify='space-between' h='full'>
-                                    <Accordion allowToggle w={400} defaultIndex={[0]}>
+                                    <Accordion allowToggle w={350} defaultIndex={[0]}>
                                         <AccordionItem border='none' mb='5px'>
                                             <h2>
                                                 <AccordionButton border='1px' rounded='7px' borderColor='blackAlpha.200'>
