@@ -1,0 +1,81 @@
+import Azuki from '../assets/azuki.avif'
+import Azuki2 from '../assets/azuki2.png'
+import Ronin from '../assets/ronin.avif'
+import Ronin2 from '../assets/ronin2.avif'
+import Force from '../assets/force.avif'
+import Force2 from '../assets/force2.avif'
+
+export const nftData = [
+    {
+        id: 1,
+        nft_image: Azuki,
+        collection: 'Azuki',
+        description: 'Azuki starts with a collection of 10,000 avatars that give you membership access to The Garden: a corner of the internet where artists, builders, and web3 enthusiasts meet to create a decentralized future',
+        nft_id: '#4312',
+        last_price: '4 ETH',
+        current_price: '12 ETH',
+        token_address: '0xED5AF388653567Af2F388E6224dC7C4b3241C544',
+        owner_address: '0x52af797BEB2df042a35577fc9713261e6555104f',
+        opensea: 'https://opensea.io/assets/ethereum/0x497a9a79e82e6fc0ff10a16f6f75e6fcd5ae65a8/4385',
+    },
+    {
+        id: 2,
+        nft_image: Azuki2,
+        collection: 'Azuki',
+        description: 'Azuki starts with a collection of 10,000 avatars that give you membership access to The Garden: a corner of the internet where artists, builders, and web3 enthusiasts meet to create a decentralized future',
+        nft_id: '#8742',
+        last_price: '7 ETH',
+        current_price: '35 ETH',
+        token_address: '0xED5AF388653567Af2F388E6224dC7C4b3241C544',
+        owner_address: '0x52af797BEB2df042a35577fc9713261e6555104f',
+        opensea: 'https://opensea.io/assets/ethereum/0x497a9a79e82e6fc0ff10a16f6f75e6fcd5ae65a8/4385',
+    },
+    {
+        id: 3,
+        nft_image: Force,
+        collection: '0N1 Force',
+        description: 'The 0N1 Force are 7,777 generative side-profile characters with over 100 hand-drawn features fighting for their',
+        nft_id: '#4048',
+        last_price: '4 ETH',
+        current_price: '12 ETH',
+        token_address: '0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d',
+        owner_address: '0x52af797BEB2df042a35577fc9713261e6555104f',
+        opensea: 'https://opensea.io/assets/ethereum/0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d/85',
+    },
+    {
+        id: 4,
+        nft_image: Force2,
+        collection: '0N1 Force',
+        description: 'The 0N1 Force are 7,777 generative side-profile characters with over 100 hand-drawn features fighting for their',
+        nft_id: '#0085',
+        last_price: '7 ETH',
+        current_price: '35 ETH',
+        token_address: '0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d',
+        owner_address: '0x52af797BEB2df042a35577fc9713261e6555104f',
+        opensea: 'https://opensea.io/assets/ethereum/0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d/85',
+    },
+    {
+        id: 5,
+        nft_image: Ronin,
+        collection: 'Ronin',
+        description: 'Travel through our multiverse portals using your NFT as your avatar. Collect, exchange and own rare items. Adventure, level up and fight',
+        nft_id: '#2446',
+        last_price: '4 ETH',
+        current_price: '12 ETH',
+        token_address: '0x497a9a79e82e6fc0ff10a16f6f75e6fcd5ae65a8',
+        owner_address: '0x52af797BEB2df042a35577fc9713261e6555104f',
+        opensea: 'https://opensea.io/assets/ethereum/0x497a9a79e82e6fc0ff10a16f6f75e6fcd5ae65a8/4385',
+    },
+    {
+        id: 6,
+        nft_image: Ronin2,
+        collection: 'Ronin',
+        description: 'Travel through our multiverse portals using your NFT as your avatar. Collect, exchange and own rare items. Adventure, level up and fight',
+        nft_id: '#4385',
+        last_price: '7 ETH',
+        current_price: '35 ETH',
+        token_address: '0x497a9a79e82e6fc0ff10a16f6f75e6fcd5ae65a8',
+        owner_address: '0x52af797BEB2df042a35577fc9713261e6555104f',
+        opensea: 'https://opensea.io/assets/ethereum/0x497a9a79e82e6fc0ff10a16f6f75e6fcd5ae65a8/4385',
+    },
+]
